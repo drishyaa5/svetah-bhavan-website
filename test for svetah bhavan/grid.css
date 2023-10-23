@@ -1,0 +1,86 @@
+html { font-size: 22px; }
+body { padding: 1rem; }
+
+
+.cards {
+  max-width: 1200;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  height: auto;
+  min-height: 4rem;
+  margin-left: 30px;
+}
+
+
+.ccards{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+
+}
+
+.ccard{
+  background-color: red;
+  color: white;
+  padding: 1rem;
+  height: auto;
+  min-height: 4rem;
+  margin-left: 30px;
+}
+
+
+
+  
+
+
+@media (min-width: 900px) {
+    .ccards { grid-template-columns: repeat(3, 1fr); }
+  }
+
+
+  .loginbox input{
+    width: 30%;
+  }
+  
+  input{
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #F3DfBA;
+    outline-style: none;
+    color: white;
+  }
+  
+  .names{
+    display: flex;
+  }
+  
+  .formlabel{
+    display: flex;
+    color: rgb(236, 236, 236);
+  }
+  
+  .formlabel .last{
+    margin-left: 26%;
+  }
+  
+  .names .lastName{
+    margin-left: 10%;
+  }
+  
+  .emailSection .email{
+    width: 70%;
+  }
+  
+  
+  .formlabel .lastAdd{
+    margin-left: 20%;
+  }
